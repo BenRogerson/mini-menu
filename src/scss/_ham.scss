@@ -1,0 +1,24 @@
+// Hamburger menu
+// Replace this with an icon font, 
+// text or something completely different
+.o-ham {
+  $ham-color: #FFF;
+  
+  vertical-align:middle;
+  position:relative;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 19px;
+    height: 0.15em;
+    background: $ham-color;
+    box-shadow: 0 0.35em 0 0 $ham-color, 0 0.7em 0 0 $ham-color;
+  }
+
+}

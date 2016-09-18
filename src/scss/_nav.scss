@@ -1,0 +1,24 @@
+// Basic navigation styles
+.o-nav {
+
+  &__item {
+    display:block;
+    
+    &:not(:first-child) {
+      margin-top:1em;
+    }
+  }
+
+  &__link {
+    display:inline-block;
+    color:#FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+
+    &:active {
+      opacity:.7;
+    }
+  }
+
+}

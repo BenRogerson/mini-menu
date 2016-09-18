@@ -1,0 +1,36 @@
+{
+  "name": "minimenu",
+  "version": "1.0.0",
+  "description": "A lightweight, snappy menu made for small screens",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "NODE_ENV=development gulp",
+    "build": "NODE_ENV=production gulp"
+  },
+  "author": "Ben Rogerson",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benrogerson/mini-menu.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.9.11",
+    "browserify": "^13.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-if": "^2.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "lodash.assign": "^4.0.0",
+    "node-bourbon": "^4.2.8",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  }
+}
