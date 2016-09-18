@@ -1,9 +1,9 @@
-# MiniMenu v1.0.0
+# Mini Menu v1.0.0
 
-MiniMenu is a lightweight, snappy menu made for small screens.
+*Mini Menu* is a lightweight, snappy menu made for small screens.
 It can be easily customised and doesn't require jQuery.
 
-[View the demo](http://ben-rogerson.github.io/minimenu/)
+[View the demo](http://ben-rogerson.github.io/mini-menu/)
 
 ## Customise
 
