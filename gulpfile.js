@@ -15,10 +15,10 @@ const gulpif        = require('gulp-if');
 const del           = require('del');
 const bourbon       = require('node-bourbon');
 
-// setup node enviorment (development or production)
+// setup node environment (development or production)
 const env = process.env.NODE_ENV;
 
-
+// set bourbon location
 bourbon.with('src/scss/minimenu.scss');
 
 // ////////////////////////////////////////////////
@@ -76,8 +76,6 @@ gulp.task('browserSync', function () {
     },
   });
 });
-
-
 
 // ////////////////////////////////////////////////
 // HTML Tasks
